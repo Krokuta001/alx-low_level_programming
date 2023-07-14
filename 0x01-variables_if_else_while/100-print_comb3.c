@@ -1,35 +1,34 @@
-/*
- * File: 100-print_comb3.c
- * Auth: Brennan D Baraban
- */
-
 #include <stdio.h>
-
+#include <stdlib.h>
 /**
- * main - Prints all possible combinations of two different digits,
- *        in ascending order, separated by a comma followed by a space.
+ * main - A program that prints combination of all two digit numbers.
  *
- * Return: Always 0.
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int digit1, digit2;
 
-	for (digit1 = 0; digit1 < 9; digit1++)
+	int num = 0;
+	int tens;
+	int ones;
+
+	while (num <= 99)
 	{
-		for (digit2 = digit1 + 1; digit2 < 10; digit2++)
+		tens = num % 10;
+		ones = num / 10;
+
+		if (ones < tens)
 		{
-			putchar((digit1 % 10) + '0');
-			putchar((digit2 % 10) + '0');
-
-			if (digit1 == 8 && digit2 == 9)
-				continue;
-			
-			putchar(',');
-			putchar(' ');
+			putchar(ones + '0');
+			putchar(tens + '0');
+			if (num < 89)
+			{
+				putchar(',');
+				putchar(' ');
+			}
 		}
+		num++;
 	}
-
 	putchar('\n');
 
 	return (0);
