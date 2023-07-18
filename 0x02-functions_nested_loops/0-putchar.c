@@ -1,7 +1,8 @@
-#include "main.h"
+#ifndef MAIN_H
+#define MAIN_H
 
-int main()
-{	
-	printf("_putchar\n");
-	return 0;
-}
+/* Function prototype */
+int _putchar(char c);
+
+#endif /* MAIN_H */
+
