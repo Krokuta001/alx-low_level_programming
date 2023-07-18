@@ -1,11 +1,11 @@
 #include "main.h"
-/**
-*add - sums up two numbers
-*@n:first integer
-*@m:second integer
-*Return: returns 0
-*/
-int add(int n, int m)
-{
-return (n + m);
+#include <stdio.h>
+
+int main(void) {
+    int n;
+
+    n = add(89, 9);
+    printf("%d\n", n);
+    return 0;
 }
+
