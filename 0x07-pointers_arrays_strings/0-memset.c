@@ -1,5 +1,3 @@
-#include "main.h"
-#include "stdio.h"
 /**
  * _memset - fills n bytes of memory
  *
