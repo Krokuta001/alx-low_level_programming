@@ -1,21 +1,24 @@
+/*
+ * 0x07. C - Even more pointers, arrays and strings
+ * task 7
+ */
 #include "main.h"
+#include <stdio.h>
+#include <string.h>
 /**
- * print_chessboard - prints out a chessboard
- *
- * @a: chessboard to print, 2D array [8] columns
- *
- * Return: always void
+ * print_chessboard - returns chessboard
+ * @a: array refrance
  */
 void print_chessboard(char (*a)[8])
 {
-	int subC, primC = 0;
+	int i, j;
 
-	while (primC < 8)
+	for (i = 0; i < 8; i++)
 	{
-		subC = 0;
-		while (subC < 8)
-			_putchar(a[primC][subC++]);
-		_putchar('\n');
-		primC++;
+		for (j = 0; j < 8; j++)
+		{
+			printf("%c", a[i][j]);
+		}
+		printf("\n");
 	}
 }
