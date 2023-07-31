@@ -1,3 +1,10 @@
+/*
+ * 0x07. C - Even more pointers, arrays and strings
+ * task 0
+ */
+#include "main.h"
+#include "stdio.h"
+
 /**
  * _memset - fills n bytes of memory
  *
