@@ -1,10 +1,14 @@
+/*
+ * 0x07. C - Even more pointers, arrays and strings
+ * task 100
+ */
+#include "main.h"
+#include <stdio.h>
+#include <string.h>
 /**
- * set_string - sets a pointer to a string
- *
- * @s: pointer to pointer of type char
- * @to: pointer to beginning of string to set
- *
- * Return: always void
+ * set_string - sets the value of a pointer to a char.
+ * @s: array refrance
+ * @to : array refrance
  */
 void set_string(char **s, char *to)
 {
