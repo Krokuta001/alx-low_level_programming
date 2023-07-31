@@ -1,24 +1,21 @@
-/*
- * 0x07. C - Even more pointers, arrays and strings
- * task 1
- */
-#include "main.h"
-#include <stdio.h>
 /**
- * _memcpy - copies memory area.
- * @src: array refrance
- * @dest: array refrance
- * @n: buffer size
- * Return: s array refrance
+ * _memcpy - copys n bytes of memory
+ *
+ * @dest: pointer to dest str
+ * @src: source to be copied from
+ * @n: num bytes to copy from src
+ *
+ * Return: pointer to beginning of memory area dest
  */
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
-	unsigned int i, len;
+	unsigned int i = 0;
+	char *start = dest;
 
-	len = *(&dest + 1) - dest;
-	for (i = 0; i < n && i < len; i++)
+	while (i < n)
 	{
-		dest[i] = src[i];
+		*dest++ = *src++;
+		i++;
 	}
-	return (dest);
+	return (start);
 }
