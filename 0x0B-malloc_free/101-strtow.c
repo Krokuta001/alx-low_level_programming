@@ -18,7 +18,7 @@ char **strtow(char *str)
     j = 0;
     i = 0;
     count = 0;
-    
+
     if (str == NULL || *str == '\0')
         return (NULL);
 
