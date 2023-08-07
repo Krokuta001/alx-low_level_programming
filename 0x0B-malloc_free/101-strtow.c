@@ -19,7 +19,7 @@ char **strtow(char *str)
     j = 0;
     i = 0;
     count = 0;
-    if (str == NULL || *str == '\0') // Check for NULL or empty string
+    if (str == NULL || *str == '\0')
         return (NULL);
     for (i = 0; str[i] != '\0'; i++)
     {
@@ -40,7 +40,7 @@ char **strtow(char *str)
                     break;
                 count++;
             }
-            if (count > 0) // Only allocate memory if word length is greater than 0
+            if (count > 0)
             {
                 *(p + j) = (char *)malloc((count + 1) * sizeof(char));
                 if (*(p + j) == NULL)
