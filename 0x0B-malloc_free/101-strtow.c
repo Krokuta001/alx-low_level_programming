@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
-#include <stdbool.h> // Include the header for using bool type
+#include <stdbool.h>
 
 /**
  * strtow - concatenates all the arguments of your program
