@@ -1,16 +1,14 @@
-#include"3-calc.h"
+#include <stdlib.h>
+#include <stdio.h>
+#include "3-calc.h"
 /**
- * get_op_func - get the operator and redirect to the func.
- * @s: the operator
-(* a blank line
-* Description: get the operator and redirect to the func.)?
-(* section header: 3-calc.h)*
-* Return: return null or the function to do.
-*/
-
+ * get_op_func - matches operator from main
+ * @s: op str
+ * Return: 0
+ */
 int (*get_op_func(char *s))(int, int)
 {
-	op_t ops[] = {
+	op_t op_s[] = {
 		{"+", op_add},
 		{"-", op_sub},
 		{"*", op_mul},
@@ -18,15 +16,13 @@ int (*get_op_func(char *s))(int, int)
 		{"%", op_mod},
 		{NULL, NULL}
 	};
-	int i;
 
-	i = 0;
-	while (i < 5)
+	int i = 0;
+
+	while (op_s[i].op)
 	{
-		if (strcmp(s, ops[i].op) == 0)
-		{
-			return (*(ops[i]).f);
-		}
+		if (*(op_s[i].op) == *s)
+			return (op_s[i].f);
 		i++;
 	}
 	return (NULL);
