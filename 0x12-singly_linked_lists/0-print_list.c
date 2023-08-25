@@ -1,6 +1,6 @@
 /*
  * File: rewritten-print-list.c
- * Auth: [Your Name]
+ * Auth: [krokuta]
  */
 
 #include "lists.h"
