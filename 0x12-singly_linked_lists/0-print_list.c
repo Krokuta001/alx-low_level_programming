@@ -7,12 +7,11 @@
 #include <stdio.h>
 
 /**
- * print_list - Outputs the content of each element in a list_t list.
- * @list: The list_t list.
+ * print_list - Outputs the content of each element in a custom_list_t list.
+ * @list: The custom_list_t list.
  *
  * Return: The number of elements in the list.
  */
-
 size_t print_list(const list_t *list)
 {
 	size_t element_count = 0;
