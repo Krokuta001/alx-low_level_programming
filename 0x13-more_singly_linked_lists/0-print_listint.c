@@ -1,5 +1,5 @@
 /*
- * File  0-print_listint.c
+ * File: 0-print_listint.c
  * Auth: Krokuta
  */
 
@@ -7,12 +7,11 @@
 #include <stdio.h>
 
 /**
- * display_list_elements - Outputs the contents of a listint_t list.
- * @head: A pointer to the starting node of the listint_t list.
+ * print_listint - Prints all the elements of a listint_t list.
+ * @h: A pointer to the head of the list_t list.
  *
- * Returns: The count of nodes in the listint_t list.
+ * Return: The number of nodes in the list_t list.
  */
-
 size_t print_listint(const listint_t *h)
 {
 	size_t nodes = 0;
