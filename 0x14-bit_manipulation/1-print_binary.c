@@ -1,13 +1,13 @@
 /*
  * File: 1-print_binary.c
- * Auth: krokuta
+ * Auth: Krokuta
  */
 
-#include "main.h"
+#include "holberton.h"
 
 /**
- * display_binary - Displays the binary representation of a given number.
- * @number: The number to be shown in binary form.
+ * print_binary - Prints the binary representation of a number.
+ * @n: The number to be printed in binary.
  */
 void print_binary(unsigned long int n)
 {
