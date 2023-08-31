@@ -6,8 +6,8 @@
 #include "main.h"
 
 /**
- * print_binary - Prints the binary representation of a number.
- * @n: The number to be printed in binary.
+ * display_binary - Displays the binary representation of a given number.
+ * @number: The number to be shown in binary form.
  */
 void print_binary(unsigned long int n)
 {
