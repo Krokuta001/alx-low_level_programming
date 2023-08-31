@@ -1,8 +1,9 @@
 /*
- * Auth:Krkuta
+ * Auth:Krokuta
  * File: 0-binary_to_uint.c
  */
 
+#include <stddef.h>
 #include "main.h"
 
 /**
