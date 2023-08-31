@@ -3,7 +3,7 @@
  * Auth: Krokuta
  */
 
-#include "holberton.h"
+#include "main.h"
 
 /**
  * clear_bit - Sets the value of a bit at a given index to 0.
