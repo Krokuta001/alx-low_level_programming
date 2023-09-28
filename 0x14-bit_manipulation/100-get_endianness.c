@@ -1,6 +1,6 @@
 /*
  * File: 100-get_endianness.c
- * Auth: Krokuta
+ * Auth: its_Krokuta
  */
 
 #include "main.h"
