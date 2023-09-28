@@ -1,6 +1,6 @@
 /*
  * File: 5-flip_bits.c
- * Auth: Krokuta
+ * Auth: its_Krokuta
  */
 
 #include "main.h"
