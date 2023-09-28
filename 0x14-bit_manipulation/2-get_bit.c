@@ -1,6 +1,6 @@
 /*
  * File: 2-get_bit.c
- * Auth: Krokuta
+ * Auth: its_Krokuta
  */
 
 #include "main.h"
