@@ -1,6 +1,6 @@
 /*
  * File: 1-print_binary.c
- * Auth: Krokuta
+ * Auth: its_Krokuta
  */
 
 #include "main.h"
